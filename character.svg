@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800">
+  <!-- Background -->
+  <rect width="600" height="800" fill="#f5f0ff"/>
+
+  <!-- ============ LEGS / SWEATPANTS ============ -->
+  <!-- Red sweatpants -->
+  <path d="M245 500 L245 700 L300 700 L300 540 Z" fill="#c62828"/>
+  <path d="M280 280 L280 700 L335 700 L335 540 Z" fill="#c62828"/>
+
+  <!-- Christmas tree on left leg -->
+  <g transform="translate(258,585)">
+    <rect x="14" y="40" width="6" height="14" fill="#6d4c41"/>
+    <polygon points="17,0 5,18 29,18" fill="#2e7d32"/>
+    <polygon points="17,8 3,26 31,26" fill="#2e7d32"/>
+    <polygon points="17,16 1,34 33,34" fill="#2e7d32"/>
+    <polygon points="8,12 12,12 12,16 8,16" fill="#ffd600"/>
+    <polygon points="22,12 26,12 26,16 22,16" fill="#ffd600"/>
+    <circle cx="17" cy="38" r="3" fill="#ffd600"/>
+  </g>
+
+  <!-- Christmas tree on right leg -->
+  <g transform="translate(318,585)">
+    <rect x="17" y="40" width="6" height="14" fill="#6d4c41"/>
+    <polygon points="20,0 8,18 32,18" fill="#2e7d32"/>
+    <polygon points="20,8 6,26 34,26" fill="#2e7d32"/>
+    <polygon points="20,16 4,34 36,34" fill="#2e7d32"/>
+    <polygon points="11,12 15,12 15,16 11,16" fill="#ffd600"/>
+    <polygon points="25,12 29,12 29,16 25,16" fill="#ffd600"/>
+    <circle cx="20" cy="38" r="3" fill="#ffd600"/>
+  </g>
+
+  <!-- ============ TORSO / SUIT JACKET ============ -->
+  <!-- Green suit jacket -->
+  <path d="M200 260 L200 540 L400 540 L400 260 Z" fill="#2e7d32"/>
+  <!-- Jacket lapels -->
+  <path d="M300 260 L260 380 L300 380 Z" fill="#1b5e20"/>
+  <path d="M300 260 L340 380 L300 380 Z" fill="#388e3c"/>
+  <!-- White shirt line -->
+  <path d="M295 260 L295 540 L305 540 L305 260 Z" fill="#ffffff"/>
+  <!-- Tie -->
+  <path d="M288 330 L312 330 L308 420 L300 450 L292 420 Z" fill="#b71c1c"/>
+
+  <!-- Snowflakes on jacket -->
+  <g fill="#e8f5e9">
+    <circle cx="225" cy="320" r="7"/>
+    <circle cx="225" cy="320" r="2" fill="#2e7d32"/>
+    <circle cx="375" cy="320" r="7"/>
+    <circle cx="375" cy="320" r="2" fill="#2e7d32"/>
+    <circle cx="230" cy="420" r="7"/>
+    <circle cx="230" cy="420" r="2" fill="#2e7d32"/>
+    <circle cx="370" cy="420" r="7"/>
+    <circle cx="370" cy="420" r="2" fill="#2e7d32"/>
+    <circle cx="255" cy="470" r="7"/>
+    <circle cx="255" cy="470" r="2" fill="#2e7d32"/>
+    <circle cx="345" cy="470" r="7"/>
+    <circle cx="345" cy="470" r="2" fill="#2e7d32"/>
+  </g>
+  <!-- Snowflake details -->
+  <g stroke="#e8f5e9" stroke-width="2">
+    <line x1="225" y1="310" x2="225" y2="330"/>
+    <line x1="215" y1="320" x2="235" y2="320"/>
+    <line x1="375" y1="310" x2="375" y2="330"/>
+    <line x1="365" y1="320" x2="385" y2="320"/>
+    <line x1="230" y1="410" x2="230" y2="430"/>
+    <line x1="220" y1="420" x2="240" y2="420"/>
+    <line x1="370" y1="410" x2="370" y2="430"/>
+    <line x1="360" y1="420" x2="380" y2="420"/>
+    <line x1="255" y1="460" x2="255" y2="480"/>
+    <line x1="245" y1="470" x2="265" y2="470"/>
+    <line x1="345" y1="460" x2="345" y2="480"/>
+    <line x1="335" y1="470" x2="355" y2="470"/>
+  </g>
+
+  <!-- ============ ARMS ============ -->
+  <!-- Left arm (green sleeve) -->
+  <path d="M200 270 L155 390 L160 460 L195 455 L200 380 L230 350 Z" fill="#2e7d32"/>
+  <circle cx="165" cy="470" r="22" fill="#ffe0b2"/>
+  <!-- Right arm (green sleeve) -->
+  <path d="M400 270 L445 390 L440 460 L405 455 L400 380 L370 350 Z" fill="#388e3c"/>
+  <circle cx="435" cy="470" r="22" fill="#ffe0b2"/>
+
+  <!-- ============ ELF SHOES ============ -->
+  <!-- Left elf shoe -->
+  <g transform="translate(215,690)">
+    <path d="M5 30 Q5 55 55 55 L75 55 C75 55 90 45 85 20 Q45 5 5 30 Z" fill="#b71c1c"/>
+    <path d="M75 20 Q95 10 105 5 L95 25 Z" fill="#b71c1c"/>
+    <path d="M70 55 L85 50 L82 20 Z" fill="#d32f2f"/>
+    <circle cx="95" cy="12" r="3.5" fill="#ffd600"/>
+  </g>
+
+  <!-- Right elf shoe -->
+  <g transform="translate(335,690)">
+    <path d="M5 30 Q5 55 55 55 L75 55 C75 55 90 45 85 20 Q45 5 5 30 Z" fill="#d32f2f"/>
+    <path d="M75 20 Q95 10 105 5 L95 25 Z" fill="#d32f2f"/>
+    <path d="M70 55 L85 50 L82 20 Z" fill="#c62828"/>
+    <circle cx="95" cy="12" r="3.5" fill="#ffd600"/>
+  </g>
+
+  <!-- ============ HEAD (GLASS BALL) ============ -->
+  <!-- Glass ball head -->
+  <circle cx="300" cy="160" r="95" fill="#b3e0ff" opacity="0.45"/>
+  <circle cx="300" cy="160" r="95" fill="none" stroke="#7fb8d9" stroke-width="4"/>
+  <!-- Glass shine -->
+  <ellipse cx="262" cy="110" rx="30" ry="18" fill="#ffffff" opacity="0.5" transform="rotate(-25 262 110)"/>
+  <ellipse cx="340" cy="215" rx="12" ry="7" fill="#ffffff" opacity="0.3"/>
+
+  <!-- ============ PINK BRAIN INSIDE ============ -->
+  <!-- Left brain hemisphere -->
+  <ellipse cx="272" cy="165" rx="40" ry="52" fill="#f48fb1"/>
+  <!-- Right brain hemisphere -->
+  <ellipse cx="328" cy="165" rx="40" ry="52" fill="#ec6f9f"/>
+
+  <!-- Brain fold lines left hemisphere -->
+  <g stroke="#c2185b" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M255 130 Q270 122 285 132"/>
+    <path d="M252 150 Q270 142 292 152"/>
+    <path d="M255 170 Q268 164 285 172"/>
+    <path d="M252 190 Q270 184 292 192"/>
+    <path d="M260 205 Q275 200 288 208"/>
+  </g>
+  <!-- Brain fold lines right hemisphere -->
+  <g stroke="#ad1457" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M345 130 Q330 122 315 132"/>
+    <path d="M348 150 Q330 142 308 152"/>
+    <path d="M345 170 Q332 164 315 172"/>
+    <path d="M348 190 Q330 184 308 192"/>
+    <path d="M340 205 Q325 200 312 208"/>
+  </g>
+  <!-- Brain valley between hemispheres -->
+  <path d="M299 112 Q296 160 299 215" stroke="#ad1457" stroke-width="2" fill="none"/>
+
+  <!-- ============ CHRISTMAS HAT ============ -->
+  <!-- Red part of hat -->
+  <path d="M255 100 Q300 55 345 100 L355 95 Q300 35 245 95 Z" fill="#d32f2f"/>
+  <!-- Hat folds down right -->
+  <path d="M330 62 Q360 45 370 70 Q380 95 355 105 Q340 80 330 95 Q325 75 330 62 Z" fill="#d32f2f"/>
+  <!-- White fur trim -->
+  <path d="M245 100 Q262 112 300 110 Q338 112 355 100 Q340 118 300 120 Q260 118 245 100 Z" fill="#ffffff"/>
+  <!-- White pompom -->
+  <circle cx="370" cy="70" r="14" fill="#ffffff"/>
+  <circle cx="363" cy="63" r="7" fill="#f5f5f5"/>
+  <!-- White band at base -->
+  <rect x="253" y="86" width="94" height="12" rx="6" fill="#ffffff"/>
+
+  <!-- ============ EYES ON GLASS ============ -->
+  <!-- Left eye -->
+  <circle cx="272" cy="148" r="13" fill="#ffffff"/>
+  <circle cx="274" cy="150" r="6.5" fill="#1a1a1a"/>
+  <circle cx="276" cy="147" r="2.5" fill="#ffffff"/>
+  <!-- Right eye -->
+  <circle cx="328" cy="148" r="13" fill="#ffffff"/>
+  <circle cx="326" cy="150" r="6.5" fill="#1a1a1a"/>
+  <circle cx="328" cy="147" r="2.5" fill="#ffffff"/>
+
+  <!-- ============ MOUTH ============ -->
+  <path d="M282 190 Q300 208 318 190" stroke="#5d4037" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>
